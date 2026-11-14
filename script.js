@@ -1,7 +1,7 @@
 // Change this ONE value to point every "Create Invitation" button to your Little Invites app.
 // Relative path (admin.html sits next to index.html):   "admin.html"
 // Or a full URL (app hosted elsewhere):                  "https://invites.yourdomain.com/admin.html"
-const LITTLE_INVITES_URL = "admin.html";
+const LITTLE_INVITES_URL = "https://iplitecomputers.github.io/little-invites/admin.html";
 
 document.querySelectorAll("[data-invites]").forEach(a => a.setAttribute("href", LITTLE_INVITES_URL));
 
